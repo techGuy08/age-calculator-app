@@ -93,4 +93,9 @@
   .AgeForm .form-group.error label {
     font-size: 13px;
   }
+  .form-output p {
+    white-space: nowrap;
+    font-size: 12vw;
+    line-height: 1.1;
+  }
 }
