@@ -19,6 +19,7 @@
   margin-right: 30px;
   outline: 0;
   width: 140px;
+  max-width: 100%;
   font-family: "Poppins", sans-serif;
 }
 .AgeForm .form-group label {

@@ -122,7 +122,9 @@ const AgeForm = () => {
       yearEl.parentElement.classList.add("error");
       dayEl.parentElement.querySelector("span").innerHTML =
         "Must be a valid date";
-
+      document
+        .querySelectorAll(".form-output .value")
+        .forEach((el) => (el.innerHTML = "- -"));
       isValid = false;
     }
     return isValid;
